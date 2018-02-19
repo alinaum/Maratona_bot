@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maratona_bots", "Maratona_bots\Maratona_bots.csproj", "{5F6EB1E5-5CF0-4E3D-93D4-1BA678F35D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F6EB1E5-5CF0-4E3D-93D4-1BA678F35D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6EB1E5-5CF0-4E3D-93D4-1BA678F35D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6EB1E5-5CF0-4E3D-93D4-1BA678F35D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6EB1E5-5CF0-4E3D-93D4-1BA678F35D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44C3E1DA-B764-4850-8227-5183A002DEA5}
+	EndGlobalSection
+EndGlobal
