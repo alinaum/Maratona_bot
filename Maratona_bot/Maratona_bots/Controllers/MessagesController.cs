@@ -23,8 +23,27 @@ namespace Maratona_bots
             else
             {
                 HandleSystemMessage(activity);
-                var doidera;
-                return Nao_existe;
+                //apagar daqui pra baixo
+                string[] fruits = { "apple", "banana", "mango", "orange", "passionfruit", "grape" };
+
+try
+{
+    int numberOfFruits = fruits.Count();
+    Console.WriteLine(
+        "There are {0} fruits in the collection.",
+        numberOfFruits);
+
+}
+catch (OverflowException)
+{
+    Console.WriteLine("The count is too large to store as an Int32.");
+    Console.WriteLine("Try using the LongCount() method instead.");
+}
+
+// This code produces the following output:
+//
+// There are 6 fruits in the collection. 
+
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
