@@ -23,6 +23,8 @@ namespace Maratona_bots
             else
             {
                 HandleSystemMessage(activity);
+                //apagar daqui pra baixo
+
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
