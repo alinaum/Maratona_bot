@@ -23,6 +23,7 @@ namespace Maratona_bots
             else
             {
                 HandleSystemMessage(activity);
+                var doidera;
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
