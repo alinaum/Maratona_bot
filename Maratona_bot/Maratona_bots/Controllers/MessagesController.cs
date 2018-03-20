@@ -24,6 +24,7 @@ namespace Maratona_bots
             {
                 HandleSystemMessage(activity);
                 var doidera;
+                return Nao_existe;
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
